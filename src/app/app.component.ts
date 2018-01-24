@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
     title = 'app';
+    imagePath = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/VfL_Wolfsburg_Logo_wei%C3%9F.svg/100px-VfL_Wolfsburg_Logo_wei%C3%9F.svg.png';
 }

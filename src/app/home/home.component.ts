@@ -34,9 +34,14 @@ import { DataService } from '../data.service';
             itemCount: number;
             btnText: string = 'Add an item';
             goalText: string = "My First Goal";
+            allowNewServer = false;
 
             goals = [];
-            constructor(private _data: DataService) { }
+            constructor(private _data: DataService) {
+                setTimeout(() => {
+                    this.allowNewServer = true;
+                },2000);
+            }
 
             ngOnInit() {
                 this._data.goal.subscribe(res => this.goals = res);

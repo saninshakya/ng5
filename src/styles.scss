@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*, *:after, *:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html{
+	font-size: 16px
+}
+
+body {
+    background:#2E9CE6;
+    color: #ffffff;
+    padding: 3em;
+    font-family: 'Roboto', 'Arial';
+}
+ul {
+    list-style-type:none;
+    margin: 0px 8px;
+    padding:0;
+}
+ul li {
+    display:inline;
+    margin-right: 30px;
+}
+ul li a {
+    font-size: 1em;
+}
+a {
+    color:#fff;
+    text-decoration:none;
+}
